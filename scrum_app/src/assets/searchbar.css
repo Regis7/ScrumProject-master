@@ -1,25 +1,56 @@
 .main {
     display: flex;
-    height: 100vh;
-    width: 100%;
+    width: 1200px;
     align-items: center;
     flex-direction: column;
     row-gap: 20px;
+}
+.pic{
+    background-color: cadetblue;
 }
 
 h1 {
     margin: 10px;
     font-size: 40px;
     color: rgb(1, 1, 59);
+    text-align: center;
 }
+.menu{
+    margin-left: 70px;
+    font-size: medium;
+    font-style: normal;
+    color: rgb(117, 50, 194);
+    margin-top:auto;
+  }
+  .menu1{
+    margin-left: 20px;
+    font-size: medium;
+    font-style: normal;
+    background-color: rgb(173, 173, 184);
+    margin-top:auto;
+    text-align: center;
+
+  }
 
 .search {
-    width: 30%;
+    width: 50%;
 }
-
-ul li {
-    font-size: 20px;
-} 
 .recommendation{
     margin-top:auto;
   }
+  
+  .table{
+      padding-top: 100px;
+      text-align: center;
+      width: 1300px;
+      }
+      .footer{
+        background-color: rgba(35, 12, 71, 0.315);
+        font-size: medium;
+        font-style: normal;
+        color: rgb(6, 3, 15);
+        margin-top:300px;
+        height: 30px;
+        text-align: center;
+      }
+     

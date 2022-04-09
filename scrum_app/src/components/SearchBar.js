@@ -1,6 +1,6 @@
-
 import React, { useState, useEffect } from "react";
 import TextField from '@mui/material/TextField';
+
 
 
 
@@ -24,8 +24,18 @@ const SearchBar = ({submissionHandlerCity}) => {
         }, []);*/
       
         return (
+          <>
+          <div class="navigation">
+        
+            <nav class="menu1">
+                <a href="#Home" class="logo">Home</a>
+                <a href="#Weather-info" class="menu">Weather info</a>
+                <a href="#Contacts" class="menu">Contacts</a>
+                <a href="#Login" class="menu">Login</a>
+            </nav>
+        </div>
           <div className="main">
-            <h1>React Search</h1>
+            <h1>Weather application</h1>
             <div className="search">
             
               <TextField
@@ -33,7 +43,7 @@ const SearchBar = ({submissionHandlerCity}) => {
                 onChange={inputHandler}
                 variant="outlined"
                 fullWidth
-                label="Search"
+                label="Search by country of city name"
                 value={inputText}
                 onKeyDown={submissionHandlerCity}
               />
@@ -42,6 +52,7 @@ const SearchBar = ({submissionHandlerCity}) => {
             </div>
            
           </div>
+          </>
         );
       
     
